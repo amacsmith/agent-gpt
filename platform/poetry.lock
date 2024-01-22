@@ -1510,19 +1510,19 @@ crc32c = ["crc32c"]
 
 [[package]]
 name = "lanarky"
-version = "0.7.16"
+version = "0.7.17"
 description = "FastAPI framework to build production-grade LLM applications"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "lanarky-0.7.16-py3-none-any.whl", hash = "sha256:589c315652edc8c98fc2f54ef008574b0e96b2bf4e8bc7299bdfc05fd7c0a433"},
-    {file = "lanarky-0.7.16.tar.gz", hash = "sha256:dbfdb927afdaa52524337b65384230ca99158f2523133d0a0a57c937bd263fdb"},
+    {file = "lanarky-0.7.17-py3-none-any.whl", hash = "sha256:0d709eed7084d621cbb6f49f27d1718879692d9c15e7e45843629e3aca33f2c9"},
+    {file = "lanarky-0.7.17.tar.gz", hash = "sha256:f663e4e2fcce359abf44c20f4fc00522c078d972cb4185482f451a9a19abb464"},
 ]
 
 [package.dependencies]
 fastapi = ">=0.97.0"
 langchain = ">=0.0.200"
-python-dotenv = ">=1.0.0,<2.0.0"
+pydantic = "<2.0.0"
 
 [package.extras]
 gptcache = ["gptcache (>=0.1.31,<0.2.0)"]
@@ -3467,4 +3467,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "0ea058909b333ecace6a5edab103625ffabef33981bf7627bbc25025d6dbc748"
+content-hash = "20d4292a0769f0631b120bfb96aca81f8c8df3b57f3670bf725552df4ccd846b"
