@@ -20,7 +20,7 @@
     "@prisma/client": "^4.9.0",
     "@radix-ui/react-switch": "^1.0.3",
     "@radix-ui/react-toast": "^1.1.4",
-    "@radix-ui/react-tooltip": "^1.0.5",
+    "@radix-ui/react-tooltip": "^1.0.7",
     "@react-pdf/renderer": "^3.1.9",
     "@sid-hq/sid": "^3.1.0",
     "@splinetool/react-spline": "^2.2.6",
