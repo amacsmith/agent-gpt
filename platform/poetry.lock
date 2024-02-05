@@ -2821,17 +2821,18 @@ pbr = ">=2.0.0,<2.1.0 || >2.1.0"
 
 [[package]]
 name = "stripe"
-version = "5.5.0"
+version = "8.1.0"
 description = "Python bindings for the Stripe API"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+python-versions = ">=3.6"
 files = [
-    {file = "stripe-5.5.0-py2.py3-none-any.whl", hash = "sha256:b4947da66dbb3de8969004ba6398f9a019c6b1b3ffe6aa88d5b07ac560a52b28"},
-    {file = "stripe-5.5.0.tar.gz", hash = "sha256:04a9732b37a46228ecf0e496163a3edd93596b0e6200029fbc48911638627e19"},
+    {file = "stripe-8.1.0-py2.py3-none-any.whl", hash = "sha256:3bd203e61dde45202b57003c3e9152e065adad4d72930f3141f5a051e24527ed"},
+    {file = "stripe-8.1.0.tar.gz", hash = "sha256:59b5b143bd83ad83daabd9e4caf8e10473d63f28a4ca370b47a3b53c8da7b46c"},
 ]
 
 [package.dependencies]
 requests = {version = ">=2.20", markers = "python_version >= \"3.0\""}
+typing-extensions = {version = ">=4.5.0", markers = "python_version >= \"3.7\""}
 
 [[package]]
 name = "tenacity"
@@ -3469,4 +3470,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cc90095da731dcb7c041e339b589f949b4913d5c10cb5de528be4de63e99e800"
+content-hash = "2ad8ac58b60069bda6c82aed95913b8389265192a4ecfb87bfd7b0515d4c123f"
