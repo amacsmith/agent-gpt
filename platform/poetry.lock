@@ -2497,23 +2497,23 @@ files = [
 
 [[package]]
 name = "replicate"
-version = "0.22.0"
+version = "0.26.0"
 description = "Python client for Replicate"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "replicate-0.22.0-py3-none-any.whl", hash = "sha256:a11e20e9589981a96bee6f3817494b5cc29735a108c71aff4515a81863ad9996"},
-    {file = "replicate-0.22.0.tar.gz", hash = "sha256:cab48c15ede619d5aa7d023a241626d504c70ea2b7db5792ebfb5ae9fa373cbc"},
+    {file = "replicate-0.26.0-py3-none-any.whl", hash = "sha256:6c7067f3d343234adb0054387f2192d87bb6370bea69ca2f6c9e8da965c0d7e4"},
+    {file = "replicate-0.26.0.tar.gz", hash = "sha256:cebcadf9804852cbe079ab45b3b7f2ad8515fcede6ba677e475dc9adfce2d661"},
 ]
 
 [package.dependencies]
 httpx = ">=0.21.0,<1"
 packaging = "*"
-pydantic = ">1"
+pydantic = ">1.10.7"
 typing-extensions = ">=4.5.0"
 
 [package.extras]
-dev = ["pylint", "pyright", "pytest", "pytest-asyncio", "pytest-recording", "respx", "ruff (>=0.1.3)"]
+dev = ["pylint", "pyright", "pytest", "pytest-asyncio", "pytest-recording", "respx", "ruff (>=0.3.3)"]
 
 [[package]]
 name = "requests"
@@ -3454,4 +3454,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "32596a41983e8d381512d0e225e06d6d932343050432652c73d12ab7572d5853"
+content-hash = "02713741f970a7659420b26ce1c4ce1368b052abcb23a015f1bca485efa5029b"
