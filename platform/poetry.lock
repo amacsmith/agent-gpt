@@ -282,13 +282,13 @@ pycodestyle = ">=2.10.0"
 
 [[package]]
 name = "aws-secretsmanager-caching"
-version = "1.1.1.5"
+version = "1.1.3"
 description = "Client-side AWS Secrets Manager caching library"
 optional = false
 python-versions = ">3.5"
 files = [
-    {file = "aws_secretsmanager_caching-1.1.1.5-py3-none-any.whl", hash = "sha256:6afb0233b6ae0183b518138e79b3a53f26432f3a71b03df99801e02e2456adc0"},
-    {file = "aws_secretsmanager_caching-1.1.1.5.tar.gz", hash = "sha256:5cee2762bb89b72f3e5123feee8e45fbe44ffe163bfca08b28f27b2e2b7772e1"},
+    {file = "aws_secretsmanager_caching-1.1.3-py3-none-any.whl", hash = "sha256:5dd8588520335ca5cc7f5ae5948e5e85f2f5b58c1341bda0db4acf6399806f78"},
+    {file = "aws_secretsmanager_caching-1.1.3.tar.gz", hash = "sha256:f6d6ec9d43e0dbe4f6d5debdf36b4cb691d15a967b358b2575f5d91974a6c0ff"},
 ]
 
 [package.dependencies]
@@ -3467,4 +3467,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "25789f6e41fb29c1476695455f26614d54dc0110d60ede9c7b13b1a048b63eee"
+content-hash = "9f61a2f49bd461c8e8f48c877d0d9cf9bb05973fbcab2b514ad3accd7f719f7a"
